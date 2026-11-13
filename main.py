@@ -8,9 +8,9 @@ set_website_title("Chemistry Calculator")
 set_site_information(
     author="Mackenzie Meola",
     description="Calculate limiting reagents, theoretical yield, and percent yield with ease.",
-    sources="Thanks to the Drafter docs and my study group.",
+    sources="Thanks to Drafter, Chempy, and CISC106!",
     planning=["plan.pdf", "design.pdf"],
-    links=["https://github.com/Mackenzie-Meola/Chemistry-Calculator"]
+    links=["https://github.com/Mackenzie-Meola/Chemistry-Calculator.git"]
 )
 hide_debug_information()
 set_website_framed(False) 
