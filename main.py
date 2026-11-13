@@ -10,7 +10,7 @@ set_site_information(
     description="Calculate limiting reagents, theoretical yield, and percent yield with ease.",
     sources="Thanks to the Drafter docs and my study group.",
     planning=["plan.pdf", "design.pdf"],
-    links=["https://github.com/your-username/your-repository"]
+    links=["https://github.com/Mackenzie-Meola/Chemistry-Calculator"]
 )
 hide_debug_information()
 set_website_framed(False) 
