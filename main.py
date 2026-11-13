@@ -97,8 +97,8 @@ def parse_reaction(state: State, equation: str) -> bool:
 
         return True
 
-    except Exception:
-        state.error_message = "Unable to read the chemical equation."
+    except Exception as error:
+        state.error_message = "Error: " + str(error)
         return False
 
 def get_initial_state() -> State:
